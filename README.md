@@ -23,10 +23,10 @@ If Rust plays nice with C, then we can integrate it smoothely into LabVIEW. The 
 The Rust-perspective on interacting with foreign code is well documented in the [manual](https://doc.rust-lang.org/book/ch19-01-unsafe-rust.html#using-extern-functions-to-call-external-code) and the [Rust Omnibus](http://jakegoulding.com/rust-ffi-omnibus/basics/). Basically, you can use the [libc crate](https://crates.io/crates/libc) to build dynamically linked libraries that interoperate with C code.
 
 ## Getting Started Example
-Using the [Rust Omnibus Integers](http://jakegoulding.com/rust-ffi-omnibus/integers/) approach, `rust-labview-basic` demonstrates a simple incrementing function writen in Rust and then consumed by a [LabVIEW VI (.vi)](https://www.ni.com/getting-started/labview-basics/environment) and a [LabVIEW NXG VI (.gvi)](https://www.ni.com/documentation/en/labview/latest/create-first/create-vi/).
+Using the [Rust Omnibus Integers](http://jakegoulding.com/rust-ffi-omnibus/integers/) approach, `rust-labview-basic` demonstrates a simple incrementing function written in Rust and then consumed by a [LabVIEW VI (.vi)](https://www.ni.com/getting-started/labview-basics/environment) and a [LabVIEW NXG VI (.gvi)](https://www.ni.com/documentation/en/labview/latest/create-first/create-vi/).
 
 ## More Advanced Example
-It is relatively common for teams to share known measurement systems and to specify configuration files that define how to acquire data from their measurement hardware. In this example, a team uses [YAML](https://en.wikipedia.org/wiki/YAML) to define their analog input measurements. For example:
+It is relatively common for teams with shared measurement systems to specify configuration files that define how to acquire data. In this example, a team uses [YAML](https://en.wikipedia.org/wiki/YAML) to define their analog input measurements. For example:
 
 ```yml
 cDAQ_configurations:
