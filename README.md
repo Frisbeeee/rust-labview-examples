@@ -1,5 +1,5 @@
 # Rust - LabVIEW Integration Examples
-This repo demonstrates Rust-LabVIEW integration with a basic example and a more advanced use case. Why combine these two programming approaches? 
+This repo demonstrates Rust-LabVIEW integration with a basic example and a more advanced use case.
 
 [NI.com](https://www.ni.com/en-us/shop/labview.html) describes LabVIEW as "systems engineering software for applications that require test, measurement, and control with rapid access to hardware and data insights". From *[This Week in Rust](https://this-week-in-rust.org/)*, "[Rust](https://www.rust-lang.org/) is a systems language pursuing the trifecta: safety, concurrency, and speed". 
 
