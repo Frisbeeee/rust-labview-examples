@@ -1,0 +1,16 @@
+[package]
+name = "rust_labview_basic"
+version = "0.1.0"
+authors = ["Cameron Frisby <cameron.frisby@ni.com>"]
+edition = "2018"
+build = "build.rs" # used to generate C header file
+
+[lib]
+name = "rust_labview_basic"
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+cbindgen = "0.13"

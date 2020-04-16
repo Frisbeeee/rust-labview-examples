@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="A763165DEC2A3407AB8E347972E3E140B1FFCE18C35EF9573B2A142BF80ACF6E5243921E54E22166CADE227BBC5E241C0BFD05AA6995F3A926BDDAD86F8159FC" Timestamp="1D60DDB3EE62D37" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="External Code" Name="http://www.ni.com/ExternalCode" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Default" Id="15e5e0e6e614d82ac07fff279295ad4" RootNamespaceId="c4abf36f1fcb421fac21b27a9c3cdd7c" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="135075684e2e4730bd6aed1cf77e47c0" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="bc1b536dd4b5420bb14ae5a7fd0ede3b" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="da8a93a1208f45b4bf046db51e7e4cae" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="28c6c6a643434a669ebd61a28e7fcd94" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="e6521679448644dc95f5bb039072291d" Name="Default">
+			<CompilerSymbolTable Id="163d764ea8654e379a77d3cf307e4808" xmlns="http://www.ni.com/PlatformFramework" />
+			<ComponentItemProperties AssociatedEnvoyId="4b1225fd9f0e48ad925fb5500e88ab8e" Exported="True" Id="5b5e0cf62094e548a68943313ed641f" />
+			<ComponentItemProperties AssociatedEnvoyId="ac25c444faf7496ca9d1f2c5c3ed95a3" Exported="True" Id="ace5e2020b7c4e79bb335e163014a357" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="3e6f5de0cde34934acd6e65c485fcd24" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="28970faf84114b4e9bcfe12e23dd9db6" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="6f0d42b54e4d40b69d253f5e8b37c7db" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="c4abf36f1fcb421fac21b27a9c3cdd7c" Name="My Computer">
+				<SourceFileReference Id="4b1225fd9f0e48ad925fb5500e88ab8e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Voltage - Continuous Input.gvi" StoragePath="Voltage - Continuous Input.gvi" />
+				<SourceFileReference Bindings="EnvoyManager" Id="ac25c444faf7496ca9d1f2c5c3ed95a3" ModelDefinitionType="{http://www.ni.com/ExternalCode}SharedLibrary" Name="rust_labview_yaml.sli" StoragePath="rust_labview_yaml.sli" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="f154270d96e24ca0be5d973feb4ec900" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="My Computer.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="e6521679448644dc95f5bb039072291d" Id="423992c6fd6b4117abf7b568fef7e9d0" Name="Default" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

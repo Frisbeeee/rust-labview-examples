@@ -1,0 +1,20 @@
+test_name: device validation
+operator_name: Joe Engineer
+cDAQ_configurations:
+  - configuration_name: medium_voltage
+    hardware_channels: cDAQ1Mod1/ai0:3
+    min_voltage: -5
+    max_voltage: 5
+    sample_rate_Hz: 100
+
+  - configuration_name: fast_voltage
+    hardware_channels: cDAQ1Mod2/ai0
+    min_voltage: -10
+    max_voltage: 10
+    sample_rate_Hz: 1000
+
+  - configuration_name: slow_voltage
+    hardware_channels: cDAQ1Mod3/ai0:15
+    min_voltage: -1
+    max_voltage: 1
+    sample_rate_Hz: 10

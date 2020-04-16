@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="5B584CBCE6BCF9E482E64F4EA7B5A4E39FF5C5EC5913C61FDC9DFCF891916A863019717DF80ADE13AF11769BC0CD294565748F6F24A03D9AD9A66B4694DA4B24" Timestamp="1D60DDB3EE62D37" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Default" Id="5970c592e1a54efeae5fdb1905c5e80c" RootNamespaceId="b3801fd8a463403da1fe2c1cf002fa8b" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="d1e5dc1633754cffb54525d5c26d71da" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="a29bae522bf945e68b140dd243cb5e8a" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="48af58289cc242218e51f944f3843663" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="22783d30a4c44be822b7a0e1de72b3a" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="eff67778f1e24b41b9de44ebc1ec44e7" Name="Default">
+			<CompilerSymbolTable Id="48e68d6e5e05426eb9944f1a01717a3f" xmlns="http://www.ni.com/PlatformFramework" />
+			<ComponentItemProperties AssociatedEnvoyId="3b05bef71a6e464b81b3afeabaad8ecc" Exported="True" Id="2d4e47241c0487fb2e714cad3a4ea18" />
+			<ComponentItemProperties AssociatedEnvoyId="6a0196433f1542348b4ecb54c4fcac63" Exported="True" Id="6fb36eeb12d4b3ea0bff1743417949a" />
+			<ComponentItemProperties AssociatedEnvoyId="4c1c6bd7ba564c44acc18c9f4ca28068" Exported="True" Id="8a31c63d6b2e4da4b8fe1509e2e2fb56" />
+			<ComponentItemProperties AssociatedEnvoyId="d4c3ea789e1247aab355e6d394c933a8" Exported="True" Id="208dc80c70c943ea96f85b1af49f4667" />
+			<ComponentItemProperties AssociatedEnvoyId="38056988f4d84ca4917af578cfe5b7aa" Exported="True" Id="64eef115875b4be181c82fa0e7b9a531" />
+			<ComponentItemProperties AssociatedEnvoyId="5e4d0bd0cd454d889bb19161493099f8" Exported="True" Id="c39b8fc9a7804b4c852034d0480ffb9c" />
+			<ComponentItemProperties AssociatedEnvoyId="9f2bf2ec6b742d3b29db8ab8b505aa5" Exported="True" Id="3739c2fd12594c21a06c2bc3a5ef0eed" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="e07437d7814a4f27a910c2e2d9f87bcd" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="2ced32dde3954e04b57cd66b6c782d21" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="feea94f87a49f5931f2384f455c934" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="b3801fd8a463403da1fe2c1cf002fa8b" Name="YAML Config Reader">
+				<SourceFileReference Id="3b05bef71a6e464b81b3afeabaad8ecc" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Load YAML Configuration.gvi" StoragePath="Load YAML Configuration.gvi" />
+				<SourceFileReference Id="6a0196433f1542348b4ecb54c4fcac63" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Configuration Count.gvi" StoragePath="Get Configuration Count.gvi" />
+				<SourceFileReference Id="4c1c6bd7ba564c44acc18c9f4ca28068" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Unload YAML Configuration.gvi" StoragePath="Unload YAML Configuration.gvi" />
+				<SourceFileReference Id="d4c3ea789e1247aab355e6d394c933a8" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Minimum Voltage.gvi" StoragePath="Get Minimum Voltage.gvi" />
+				<SourceFileReference Id="38056988f4d84ca4917af578cfe5b7aa" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Maximum Voltage.gvi" StoragePath="Get Maximum Voltage.gvi" />
+				<SourceFileReference Id="5e4d0bd0cd454d889bb19161493099f8" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Hardware Channels.gvi" StoragePath="Get Hardware Channels.gvi" />
+				<SourceFileReference Id="9f2bf2ec6b742d3b29db8ab8b505aa5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Sample Rate Hz.gvi" StoragePath="Get Sample Rate Hz.gvi" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="d5a20f1fc4a44a2865618c751e6de49" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="YAML Config Reader.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="eff67778f1e24b41b9de44ebc1ec44e7" Id="1e41b548d29243498440c7e2eb07a6e0" Name="Default" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
